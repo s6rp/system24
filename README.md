@@ -2,7 +2,7 @@
 
 # system24
 
-a tui-style discord theme, inspired by [spicetify text theme](https://github.com/spicetify/spicetify-themes/tree/master/text).
+fork of the tui-style discord theme, inspired by [spicetify text theme](https://github.com/spicetify/spicetify-themes/tree/master/text).
 
 ![screenshot](https://raw.githubusercontent.com/s6rp/system24/main/assets/preview.gif)
 
@@ -17,4 +17,4 @@ a tui-style discord theme, inspired by [spicetify text theme](https://github.com
 
 #### install through link
 
-1. add `https://refact0r.github.io/system24/system24.css` to your theme import links.
+1. add `https://raw.githubusercontent.com/s6rp/system24/main/system24.css` to your theme import links.
