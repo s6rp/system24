@@ -11,6 +11,7 @@
 */
 
 @import url('https://refact0r.github.io/system24/system24.css');
+@import url('https://raw.githubusercontent.com/s6rp/system24/main/patches.css');
 
 /* customize things here */
 :root {
