@@ -44,12 +44,12 @@
 	--idle-dot: var(--yellow);
 	--streaming-dot: var(--purple);
 
-	--pink: oklch(73% 0.12 0);
-	--pink-1: oklch(63% 0.12 0);
-	--pink-2: oklch(53% 0.12 0);
-	--purple: oklch(73% 0.12 300);
-	--purple-1: oklch(63% 0.12 300);
-	--purple-2: oklch(53% 0.12 300);
+	--pink: #c8a396;
+	--pink-1: #d4b0a2;
+	--pink-2: #98766a;
+	--purple: #dab6a9;
+	--purple-1: #eab7a5;
+	--purple-2: #d29d89;
 	--cyan: oklch(73% 0.12 200);
 	--yellow: oklch(78% 0.12 80);
 	--green: oklch(73% 0.12 160);
@@ -119,10 +119,10 @@
 	fill: var(--txt-0);
 }
 /* accents */
-svg[style="color: rgb(88, 101, 242);"] /* folder icons */ {
+svg[style="color: #f2cabc;"] /* folder icons */ {
 	color: var(--purple) !important;
 }
-[class^='folderIconWrapper_'][style='background-color: rgba(88, 101, 242, 0.4);'] {
+[class^='folderIconWrapper_'][style='background-color: #f2cabc;'] {
 	background: var(--bg-1) !important;
 }
 [style="opacity: 1; background-color: rgb(35, 165, 90);"] /* settings checkbuttons */ {
