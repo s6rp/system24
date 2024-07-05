@@ -1,4 +1,4 @@
-/* YOU CAN DELETE THIS OF YOU WANT IT TO LOOK LIKE THE ORIGINAL THEME! */
+/* delete this section of the code if u want your theme to match the original font the theme has */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 *
@@ -7,6 +7,8 @@
     letter-spacing: -0.px!important;
     font-weight: lighter!important;
 }
+
+/ * ---------------------------------------------------------------------------------------------- */
 
 /*Pastel Statuses*/
 rect[fill='#23a55a'], svg[fill='#23a55a'] {
@@ -75,4 +77,8 @@ border: 2px solid var(--purple);
 
 .theme-dark .pageWrapper_a3a4ce {
 background-color: oklch(20% 0 0);
+}
+
+[class*='userProfileInner_'] [class^='wrapper_'][class*='avatar'], [class^='userPanelInner_'] [class^='avatar'] .layerContainer_cd0de5 {
+border: none!important;
 }
