@@ -40,7 +40,39 @@ rect[fill='#593695'], svg[fill='#593695'] {
     max-height: unset!important;
 }
 
+.wrapper_cd82a7,
+.root_f9a4c9,
+.footer_f9a4c9  {
+background-color: oklch(20% 0 0);
+}
 
-/* FIXING A FEW STUFF (dont recommend deleting) */
+.section_cd82a7 {
+border: 1px solid var(--bg-3);
+}
 
-/* soon */
+.autocomplete_f23da8 {
+background-color: oklch(24% 0 0);
+margin-bottom:19px;
+margin-left: 7px;
+margin-right: 7px;
+border: 2px solid var(--bg-3);
+}
+
+.autocomplete_f23da8:hover {
+transition: ease 0.2s border;
+border: 2px solid var(--purple);
+}
+
+.quickswitcher_f4e139,
+.theme-dark .rootWithShadow_f9a4c9, .theme-light .rootWithShadow_f9a4c9 {
+border: 2px solid var(--bg-3);
+}
+
+.quickswitcher_f4e139:hover {
+transition: ease 0.2s border;
+border: 2px solid var(--purple);
+}
+
+.theme-dark .pageWrapper_a3a4ce {
+background-color: oklch(20% 0 0);
+}
